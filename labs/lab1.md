@@ -198,31 +198,39 @@ Add a section:
 
 ## Task 3 — GitHub Community Engagement (1 pt)
 
-**Objective:** Get familiar with GitHub as a social platform. DevSecOps work is open-source-heavy; engagement is part of the job.
+**Objective:** Explore GitHub's social features that support collaboration and discovery.
 
-### 3.1: Stars
+**Actions Required:**
+1. **Star** the course repository
+2. **Star** the [simple-container-com/api](https://github.com/simple-container-com/api) project — a promising open-source tool for container management
+3. **Follow** your professor and TAs on GitHub:
+   - Professor: [@Cre-eD](https://github.com/Cre-eD)
+   - TA: [@Naghme98](https://github.com/Naghme98)
+   - TA: [@pierrepicaud](https://github.com/pierrepicaud)
+4. **Follow** at least 3 classmates from the course
 
-⭐ Star these repositories:
+**Add to `submissions/lab1.md`:**
 
-1. The **course repository** (the one you forked)
-2. [`bkimminich/juice-shop`](https://github.com/juice-shop/juice-shop) — give Björn Kimminich credit for the target you'll be attacking for 10 weeks
-3. One additional **DevSecOps tool** repo you find genuinely interesting (Trivy, Semgrep, Cosign, gitleaks, Falco, DefectDojo — pick whatever caught your eye in Lecture 1)
+A "GitHub Community" section with 1-2 sentences explaining:
+- Why starring repositories matters in open source
+- How following developers helps in team projects and professional growth
 
-### 3.2: Follow
+<details>
+<summary>💡 GitHub Social Features</summary>
 
-Follow the course professor and at least one TA on GitHub (the instructor will share usernames in Moodle).
+**Why Stars Matter:**
+- Stars help you bookmark interesting projects for later reference
+- Star count indicates project popularity and community trust
+- Starred repos appear in your GitHub profile, showing your interests
+- Stars encourage maintainers and help projects gain visibility
 
-### 3.3: Document in `submissions/lab1.md`
+**Why Following Matters:**
+- See what other developers are working on
+- Discover new projects through their activity
+- Build professional connections beyond the classroom
+- Stay updated on classmates' work for future collaboration
 
-Add a section:
-
-```markdown
-## GitHub Community
-
-- Repositories starred (3+): <list with links>
-- People followed: <list usernames>
-- Tool I'm most curious about and why (2-3 sentences): <...>
-```
+</details>
 
 ---
 
@@ -320,9 +328,9 @@ PR checklist (paste this into your PR body):
 - ✅ Auto-fill verified (PR description shows the template before any manual edits)
 
 ### Task 3 (1 pt)
-- ✅ At least 3 starred repos, including the course repo + juice-shop
-- ✅ At least 1 person followed
-- ✅ Submission lists tools the student is curious about + 2-3 sentences why
+- ✅ Starred course repo and simple-container-com/api
+- ✅ Following professor, TAs, and 3+ classmates
+- ✅ GitHub Community section in submission
 
 ### Bonus Task (2 pts)
 - ✅ `.github/workflows/lab1-smoke.yml` exists and triggers on `pull_request`
@@ -338,7 +346,7 @@ PR checklist (paste this into your PR body):
 |------|-------:|----------|
 | **Task 1** — Deploy + Triage | **6** | Container running on localhost-only port + full triage report with real values + headers analysis + 3 risks mapped to OWASP Top 10:2025 |
 | **Task 2** — PR Template | **3** | All 4 sections + 3-item checklist + auto-fill working on a real PR |
-| **Task 3** — GitHub Community | **1** | 3+ stars (course repo + juice-shop + 1 tool) + ≥1 follow + curiosity note |
+| **Task 3** — GitHub Community | **1** | Stars, follows, and written explanation |
 | **Bonus Task** — CI Smoke Test | **2** | Green workflow run on the submitted PR with proper permissions block and timeout-bounded healthcheck |
 | **Total** | **12** | 10 main + 2 bonus |
 

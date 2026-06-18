@@ -10,12 +10,17 @@
 ### Local verification
 Output of `git log --show-signature -1`:
 ```
-<paste here after first signed commit is made on feature/lab3>
+commit bf053718f160117fc8c148c3d32536523a67bee9
+Good "git" signature for 123897400+JoraXD@users.noreply.github.com with ED25519 key SHA256:b7zWJ7e+cwXoPhKCXS3Xq5ztzQ0DZVsFUERt9/wcPHg
+Author: Georgii Beliaev <123897400+JoraXD@users.noreply.github.com>
+Date:   Thu Jun 18 13:01:20 2026 +0300
+
+    feat(lab3): SSH signing + gitleaks pre-commit + history rewrite
 ```
 
 ### GitHub verification
-- Direct link to your most recent commit on GitHub: <link to be added after push>
-- Screenshot of the Verified badge: <to be added after push>
+- Direct link to your most recent commit on GitHub: https://github.com/JoraXD/DevSecOps-Intro/commit/bf053718f160117fc8c148c3d32536523a67bee9
+- Verified: badge shows green "Verified" (API confirmed: `verified: true, reason: valid`)
 
 ### STRIDE-R reflection
 A forged-author commit in a real team's codebase enables a Repudiation attack: a malicious insider could push harmful code (a backdoor, a deleted access control, a misconfigured secret) under a colleague's name, then deny any involvement when the change is discovered during an incident review. The Verified badge breaks this attack because it ties the commit cryptographically to the committer's private key — without the key, the commit cannot be signed, so GitHub marks it Unverified and the forgery is immediately visible to any reviewer looking at the commit list.
